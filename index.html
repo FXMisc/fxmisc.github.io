@@ -37,9 +37,9 @@
 <a name="what-exactly-does-fxmisc-offer-to-a-project" class="anchor" href="#what-exactly-does-fxmisc-offer-to-a-project"><span class="octicon octicon-link"></span></a>What exactly does FXMisc offer to a project?</h3>
 
 <ul>
-<li>Endorsement to use <strong>org.fxmisc.<em>yourproject</em></strong> package name.</li>
+<li>Endorsement to use <code>org.fxmisc.<em>yourproject</em></code> package name.</li>
 <li>List the project on this site (<a href="http://www.fxmisc.org/">fxmisc.org</a>).</li>
-<li>Redirect <strong><a href="http://fxmisc.org/yourproject">http://fxmisc.org/yourproject</a></strong> to your project website (hosted e.g. on GitHub).</li>
+<li>Redirect <code>http://fxmisc.org/yourproject</code> to your project website (hosted e.g. on GitHub).</li>
 </ul><p>That's it — no more, no less.</p>
 
 <h3>
@@ -47,12 +47,12 @@
 
 <p>When publishing a Java project, the package name should follow the convention and start with the reversed domain name of a site you control. If you don't think that your project deserves a dedicated domain name (yet), you may find <code>org.fxmisc.yourproject</code> more appealing than, say, <code>com.github.yourname.yourproject</code>. Also, you probably don't want to rename your packages if you switch to a different project hosting site.</p>
 
-<p>Having control over the <code>http://fxmisc.org/yourproject</code> URL makes you eligible to <a href="https://docs.sonatype.org/display/Repository/Sonatype+OSS+Maven+Repository+Usage+Guide">register your project at the Sonatype repository</a> with <strong>groupId</strong> <code>org.fxmisc.yourproject</code>.</p>
+<p>Having control over the <code>http://fxmisc.org/yourproject</code> URL makes you eligible to <a href="https://docs.sonatype.org/display/Repository/Sonatype+OSS+Maven+Repository+Usage+Guide">register your project at the Sonatype repository</a> with <em>groupId</em> <code>org.fxmisc.yourproject</code>.</p>
 
 <h3>
 <a name="what-projects-are-eligible-for-fxmisc" class="anchor" href="#what-projects-are-eligible-for-fxmisc"><span class="octicon octicon-link"></span></a>What projects are eligible for FXMisc?</h3>
 
-<p>We don't judge the usefulness or quality of your project. The only two requirements are:</p>
+<p>We don't judge the usefulness or quality of your project. Our only two requirements are:</p>
 
 <ol>
 <li>
@@ -67,7 +67,7 @@
 <li>
 <strong>Project name</strong>, e.g. <code>YourProjectFX</code>.</li>
 <li>
-<strong>Package name</strong>, e.g. <code>yourproject</code>. Don't ask for a package name that is too general, like <del><code>util</code></del> or <del><code>misc</code></del>.</li>
+<strong>Package name</strong>, e.g. <code>yourproject</code>. Don't ask for a package name that is too general, like <del><code>util</code></del>.</li>
 <li>
 <strong>Project web site</strong>, e.g. <code>https://github.com/yourname/YourProjectFX</code>. We will set up redirection from <code>http://fxmisc.org/yourproject</code> to this site.</li>
 <li>
@@ -101,7 +101,7 @@
 <li>You have to write your own build scripts.</li>
 <li>You have to manage the release cycle yourself.</li>
 <li>You have to <a href="https://docs.sonatype.org/display/Repository/Sonatype+OSS+Maven+Repository+Usage+Guide">register your project with Sonatype</a> yourself to get your artifacts to Maven Central Repository.</li>
-<li>You have to create the web presentation yourself.</li>
+<li>You have to create the web presentation of your project yourself.</li>
 </ul>
         </section>
 
