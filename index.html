@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <title>FXMisc by FXMisc</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="inner">
+        <h1>FXMisc</h1>
+        <h2>Miscellaneous JavaFX applications and libraries.</h2>
+        <a href="https://github.com/FXMisc" class="button"><small>Follow me on</small>GitHub</a>
+      </div>
+    </header>
+
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+          <h3>
+<a name="about-fxmisc" class="anchor" href="#about-fxmisc"><span class="octicon octicon-link"></span></a>About FXMisc</h3>
+
+<p>FXMisc is an umbrella project for various <a href="http://docs.oracle.com/javafx/">JavaFX</a>-related projects. The goal is to help developers publish their project the standard way - obeying the <a href="http://en.wikipedia.org/wiki/Java_package#Package_naming_conventions">package naming conventions</a> and publishing project artifacts to <a href="http://search.maven.org/#browse">Maven Central Repository</a>. At the same time, you retain <em>complete control</em> of your project. We take no credit or responsibility for your project.</p>
+
+<h3>
+<a name="what-exactly-does-fxmisc-offer-to-a-project" class="anchor" href="#what-exactly-does-fxmisc-offer-to-a-project"><span class="octicon octicon-link"></span></a>What exactly does FXMisc offer to a project?</h3>
+
+<ul>
+<li>Endorsement to use <strong>org.fxmisc.<em>yourproject</em></strong> package name.</li>
+<li>List the project on this site (<a href="http://www.fxmisc.org/">fxmisc.org</a>).</li>
+<li>Redirect <strong><a href="http://fxmisc.org/yourproject">http://fxmisc.org/yourproject</a></strong> to your project website (hosted e.g. on GitHub).</li>
+</ul><p>That's it — no more, no less.</p>
+
+<h3>
+<a name="how-is-that-supposed-to-help" class="anchor" href="#how-is-that-supposed-to-help"><span class="octicon octicon-link"></span></a>How is that supposed to help?</h3>
+
+<p>When publishing a Java project, the package name should follow the convention and start with the reversed domain name of a site you control. If you don't think that your project deserves a dedicated domain name (yet), you may find <code>org.fxmisc.yourproject</code> more appealing than, say, <code>com.github.yourname.yourproject</code>. Also, you probably don't want to rename your packages if you switch to a different project hosting site.</p>
+
+<p>Having control over the <code>http://fxmisc.org/yourproject</code> URL makes you eligible to <a href="https://docs.sonatype.org/display/Repository/Sonatype+OSS+Maven+Repository+Usage+Guide">register your project at the Sonatype repository</a> with <strong>groupId</strong> <code>org.fxmisc.yourproject</code>.</p>
+
+<h3>
+<a name="what-projects-are-eligible-for-fxmisc" class="anchor" href="#what-projects-are-eligible-for-fxmisc"><span class="octicon octicon-link"></span></a>What projects are eligible for FXMisc?</h3>
+
+<p>We don't judge the usefulness or quality of your project. The only two requirements are:</p>
+
+<ol>
+<li>
+<strong>JavaFX-related.</strong> Note that the language is not restricted to Java. Other JVM languages are welcome as well.</li>
+<li><strong>Open-source.</strong></li>
+</ol><h3>
+<a name="how-to-apply" class="anchor" href="#how-to-apply"><span class="octicon octicon-link"></span></a>How to apply?</h3>
+
+<p><a href="https://github.com/FXMisc/fxmisc.github.io/issues/new">Open a new issue</a> with label "new project" and provide the following information:</p>
+
+<ul>
+<li>
+<strong>Project name</strong>, e.g. <code>YourProjectFX</code>.</li>
+<li>
+<strong>Package name</strong>, e.g. <code>yourproject</code>. Don't ask for a package name that is too general, like <del><code>util</code></del> or <del><code>misc</code></del>.</li>
+<li>
+<strong>Project web site</strong>, e.g. <code>https://github.com/yourname/YourProjectFX</code>. We will set up redirection from <code>http://fxmisc.org/yourproject</code> to this site.</li>
+<li>
+<strong>Project description</strong> (optional, max. 250 characters).</li>
+</ul><h3>
+<a name="how-does-fxmisc-compare-to-others" class="anchor" href="#how-does-fxmisc-compare-to-others"><span class="octicon octicon-link"></span></a>How does FXMisc compare to others?</h3>
+
+<p>You may consider contributing to other open-source projects like <a href="http://controlsfx.org/">ControlsFX</a> or <a href="http://jfxtras.org/">JFXtras</a>. The difference is that you are <em>not</em> contributing your project to FXMisc. You retain complete control of your project, remember? This gives you <strong>more freedom</strong>, but at the same time <strong>less support</strong>.</p>
+
+<h4>
+<a name="more-freedom" class="anchor" href="#more-freedom"><span class="octicon octicon-link"></span></a>More freedom</h4>
+
+<p>Complete control means that, among other things:</p>
+
+<ul>
+<li>We don't judge the quality of your code or documentation.</li>
+<li>We don't restrict the scope of your project.</li>
+<li>We don't care whether your project has third-party dependencies.</li>
+<li>We don't claim any rights to your project.</li>
+<li>We don't care what license you use (as long as your project is open-source).</li>
+<li>We don't care where you host your source code.</li>
+<li>We don't care whether you use Git, Mercurial or anything else.</li>
+<li>We don't care what build tool you use.</li>
+<li>It's OK if you later decide that your project deserves its own domain name or that you want to contribute it to another open-source project. There are no strings attached.</li>
+</ul><h4>
+<a name="less-support" class="anchor" href="#less-support"><span class="octicon octicon-link"></span></a>Less support</h4>
+
+<p>Complete control also means that:</p>
+
+<ul>
+<li>You have to write your own build scripts.</li>
+<li>You have to manage the release cycle yourself.</li>
+<li>You have to <a href="https://docs.sonatype.org/display/Repository/Sonatype+OSS+Maven+Repository+Usage+Guide">register your project with Sonatype</a> yourself to get your artifacts to Maven Central Repository.</li>
+<li>You have to create the web presentation yourself.</li>
+</ul>
+        </section>
+
+        <aside id="sidebar">
+
+
+          <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
+        </aside>
+      </div>
+    </div>
+
+  
+  </body>
+</html>
