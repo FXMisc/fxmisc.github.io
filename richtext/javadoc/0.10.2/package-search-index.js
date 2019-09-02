@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"org.fxmisc.richtext"},{"l":"org.fxmisc.richtext.event"},{"l":"org.fxmisc.richtext.model"},{"l":"org.fxmisc.richtext.util"}]
